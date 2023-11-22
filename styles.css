@@ -1,0 +1,26 @@
+:root{
+    --header-background: #293447;
+    --page-background: #e3f2fd;
+    --game-background: #834100;
+    --text-color: #bbc6dc;
+    --food-color: #ff003d;
+    --box-size: 32px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.header{
+ text-align: center;
+ background-color: red;
+}
+
+.game{
+    width: calc(var(--box-size) * 19);
+    height: calc(var(--box-size) * 22);
+    border-radius: 5px;
+    background: var(--game-background);
+}
